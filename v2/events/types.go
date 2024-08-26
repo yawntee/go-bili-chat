@@ -937,7 +937,7 @@ type Preparing struct {
 	RoomId int    `json:"roomid"`
 }
 
-type GuardBuy struct {
+type GuardBuyMsg struct {
 	Cmd  string `json:"cmd"`
 	Data struct {
 		UID        int64  `json:"uid"`
